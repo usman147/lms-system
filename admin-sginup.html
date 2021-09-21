@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie | Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box-wrapper">
+        <div class="box">
+            <div class="box-content">
+                <div class="signin-call-to-action">
+                    Don't have an account yet? &nbsp;&nbsp;<a href="index.html" class="hollow-btn">Signup</a>
+                </div>
+                <h1>Signup <span class="subtext">Admin Signup</span></h1>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="admin_email" class="input-field">
+                <label for="password">Pasword</label>
+                <input type="text" name="password" id="admin_password" class="input-field">
+                <button onclick="signupAsAdmin();" class="default-btn">Admin Signup</button>
+            </div>  <!-- box content Ends -->
+        </div>  <!-- box Ends -->
+    </div>  <!-- box wrapper Ends -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

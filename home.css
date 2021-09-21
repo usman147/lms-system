@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0px 14px 5px rgba(0, 0, 0, 0.60);
+}
+.logo{
+    float: left;
+}
+a:hover{
+    color: #31bf34;
+    transition: all ease 300ms;
+}
+header nav{
+    float: right;
+    height: 52px;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+header nav ul li{
+    
+}
+header nav ul li a:hover{
+    color: #31bf34;
+}
+header nav ul li a{
+    color: #333333;
+    margin-right: 12px;
+    text-decoration: none;
+}
+header .nav-btn{
+    border: 1px solid #31bf34;
+    color: #31bf34;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+header .nav-btn:hover{
+    background-color: #31bf34;
+    color: #fff;
+}
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 1080px;
+}
+.slider{
+    background: url(images/banner.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 650px;
+    float: left;
+    width: 100%;
+}
+.banner-content{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    margin-top: 16%;
+}
+.cta-btn{
+    margin-top: 30px;
+    display: block;
+}
+
+section{
+    float: left;
+    width: 100%;
+}
+
+section h1{
+    font-family: 'Oswald', sans-serif;
+}
+section.popular-courses{
+    padding: 20px 0;
+}
+.center-heading{
+    text-align: center;
+    position: relative;
+}
+.center-heading:after{
+    content: ' ';
+    width: 5%;
+    position: absolute;
+    height: 5px;
+    display: inline-block;
+    background-color: #31bf34;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.cources-grid{
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    float: left;
+    width: 100%;
+    margin: 30px 0;
+}
+.course-box{
+    box-shadow: 0 0px 14px 5px rgb(0 0 0 / 25%);
+    border-radius: 6px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    overflow: hidden;
+    float: left;
+    width: 325px;
+}
+.course-box img{
+    height: 150px;
+}
+.course-box a {
+    border: 1px solid #31bf34;
+    color: #31bf34;
+    padding: 4px 17px;
+    text-decoration: none;
+    border-radius: 100px;
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+.course-box a:hover{
+    background-color: #31bf34;
+    color: #fff;
+}
+.course-box-content{
+    padding: 15px 20px;
+    float: left;
+    width: 100%;
+}
+.course-box-content h3{
+    margin: 2px 0;
+}
+
+footer{
+    border-top: 1px solid #eee;
+    float: left;
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+}

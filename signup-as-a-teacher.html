@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup as a Teacher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header id="top">
+        <div class="content-wrapper">
+            <div class="logo"><a href="index.html"><img src="images/Saylani-logo.png" alt="Saylani-logo"></a></div>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Webinars</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                    <a href="signup-as-a-teacher.html" class="nav-btn">Signup as a Teacher</a>
+                </ul>
+            </nav> <!-- Navigation Ends -->
+        </div>
+    </header> <!-- Header Ends -->
+    <div class="box-wrapper">
+        <div class="box">
+            <div class="box-content">
+            <div class="signin-call-to-action">
+                Already have an account? &nbsp;&nbsp;<a href="login.html" class="hollow-btn">Login</a>
+            </div>
+            <h1>Signup <span class="subtext">Signup as a Teacher</span></h1>
+
+    <div class="signup-form">
+        <label for="res_name">Teacher name</label>
+        <input type="text" name="teach_name" id="teach_name" placeholder="Teacher Name" class="input-field">
+
+        <label for="res_email">Email</label>
+        <input type="email" name="res_email" id="res_email" placeholder="Email*" class="input-field">        
+
+        <label for="res_country">Country</label>
+        <select name="country" id="res_country" class="default-dropdown">
+            <option value="">Select Country</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <label for="res_city">City</label>
+        <select name="city" id="res_city" class="default-dropdown">
+            <option value="">Select</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Karachi">Karachi</option>
+        </select>
+
+        <label for="res_city">Password</label>
+        <input type="password" name="res_password" id="res_password" placeholder="Password*" class="input-field">
+
+        <button onclick="signupAsTeacher();" class="default-btn">Signup</button>
+    </div>
+</div>  <!-- box content Ends -->
+</div>  <!-- box Ends -->
+</div>  <!-- box wrapper Ends -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

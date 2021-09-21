@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    border: 1px solid #fff;
+    
+    border-radius: 8px;
+    padding: 5px 10px;
+    line-height: 25px;
+    margin: 5px;
+    float: left;
+}
+.box-wrapper{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+}
+.box{
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 20px 4px #00000059;
+    display: flex;
+    flex-direction: row;
+}
+.signin-call-to-action{
+    float: right;
+    color: #9d9fb7;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.signin-call-to-action .hollow-btn{
+    font-weight: 500;
+    padding: 4px 20px;
+    border: 2px solid #9d9fb7;
+    color: #9d9fb7;
+    text-decoration: none;
+    border-radius: 100px;
+    display: inline-block;
+    transition: all ease 300ms;
+}
+.signin-call-to-action .hollow-btn:hover{
+    color: #31bf34;
+    border-color: #31bf34;
+}
+h1{
+    font-weight: 700;
+    clear: both;
+}
+.subtext{
+    color: #9d9fb7;
+    font-size: 14px;
+    display: block;
+    font-weight: normal;
+    padding: 10px 0 15px;
+}
+label{
+    display: block;
+    margin: 12px 7px 7px;
+    font-weight: 500;
+}
+.inline-label{
+    display: inline-block;
+    margin: auto 0 auto 5px;
+}
+.box-content{
+    width: 100%;
+    padding: 20px 30px 30px;
+}
+form{
+    
+}
+.input-field{
+    border: 1px solid #31bf34;
+    border: 2px solid #dbdee5;
+    border-radius: 6px;
+    padding: 8px 6px;
+    width: 100%;
+    transition: all ease 300ms;
+}
+.input-field:focus{
+    border-color: #31bf34;
+    outline: none;
+}
+.default-btn{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#31bf34+0,2cab2f+100 */
+background: rgb(49,191,52); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(49,191,52,1) 0%, rgba(44,171,47,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(49,191,52,1) 0%,rgba(44,171,47,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(49,191,52,1) 0%,rgba(44,171,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31bf34', endColorstr='#2cab2f',GradientType=0 ); /* IE6-9 */
+
+
+    color: #fff;
+    font-weight: 500;
+    padding: 11px 30px;
+    box-shadow: 0 0px 14px 5px rgb(115 54 255 / 16%);
+    border: none;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-top: 28px;
+    display: inline-block;
+    outline: none !important;
+    cursor: pointer;
+    transition: all ease 300ms;
+}
+.default-btn:hover{
+    box-shadow: 0 0px 14px 5px rgb(115 54 255 / 30%);
+}
+.default-dropdown{
+    border: 1px solid #dbdee5;
+    border-radius: 6px;
+    padding: 8px 6px;
+    width: 100%;
+    transition: all ease 300ms;
+}
+.logged-in-box {
+    padding: 20px;
+    text-align: center;
+    line-height: 55px;
+}
+.list-group{
+    list-style-type: none;
+}
+.list-group li {
+    margin: 8px 0;
+}
+
+/* Admin Sidebar */
+.control-panel{
+    padding-left: 220px;
+}
+.siderbar{
+    width: 200px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background-color: #dadada;
+}
